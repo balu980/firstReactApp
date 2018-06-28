@@ -137,12 +137,19 @@ my-app/
     index.html
     favicon.ico
   src/
+    actions/
+      fetchActions.js
+    components/
+      layout.js
+    reducers/
+      gitreducer.js     
     App.css
     App.js
     App.test.js
     index.css
     index.js
     logo.svg
+    store.js
 ```
 
 For the project to build, **these files must exist with exact filenames**:
