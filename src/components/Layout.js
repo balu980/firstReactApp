@@ -41,7 +41,7 @@ class Layout extends React.Component {
         var sQuerry = {
             text : this.refs.searchText.value,
             lang  : this.refs.searchTextLang.value,
-            topic : this.refs.searchTextTopic.value
+            topic : this.refs.searchTextRepo.value
         }
 
         this.props.fetchGitCode(sQuerry)
@@ -63,12 +63,13 @@ class Layout extends React.Component {
             informationText =    <span>
                         <div className="information">Open Issues count : {stat.open_issues_count}</div>
                         <div className="information">watchers : {stat.watchers_count}</div>
+                        <div className="information">Language : {stat.language}</div>
                         <div className="information">Last Updated : <Time value={now} format="MMM DD YYYY" /> </div>
                     </span>
 
         } else{
             informationText = <span>
-                        <div className="information">Path : {stat.url}</div>
+                        <div className="information">Path : {stat.path}</div>
                         <div className="information">Score : {stat.score}</div>
                     </span>
 
@@ -99,9 +100,19 @@ class Layout extends React.Component {
                     {errorMsg}
                     <span ref="projectSearchContainer" >
                         <input ref="searchText" placeholder={this._text.textPlaceHolder} className="search-page__input" type="text" />
-                        <input ref="searchTextLang" placeholder={this._text.languagePlaceHolder} className="search-page__input" type="text" />
+                         <select ref="searchTextLang" className="search-page__input"  type="select" >
+                            <option value="">Select Language</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="PHP">PHP</option>
+                             <option value="Java">Java</option>
+                             <option value="TypeScript">TypeScript</option>
+                             <option value="Ruby">Ruby</option>
+                             <option value="Python">Python</option>
+                             <option value="HTML">HTML</option>
+
+                        </select>
                         <input ref="searchTextTopic" placeholder={this._text.topicPlaceHolder} className="search-page__input" type="text" />
-                        <input ref="searchTextTopic" placeholder={this._text.repoPlaceHolder} className="search-page__input" type="text" />
+                        <input ref="searchTextRepo" placeholder={this._text.repoPlaceHolder} className="search-page__input" type="text" />
                     </span>
                     <div ref="buttonSearchContainer" >
                         <button onClick={this.fetchGitProject.bind(this)} className="search-page__button">Search Projects</button>

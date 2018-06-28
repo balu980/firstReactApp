@@ -20,7 +20,7 @@ export function fetchGitProject(querry) {
     }
 }
 export function fetchGitCode(querry) {
-    var urlParams = querry.text+"+in:file+repo:"+querry.topic
+    var urlParams = querry.text+"+in:file+language:"+querry.lang+"+repo:"+querry.topic
     return function(dispatch) {
         /*
         to add a loading text
