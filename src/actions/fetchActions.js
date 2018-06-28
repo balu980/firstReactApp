@@ -7,6 +7,7 @@ export function fetchGitProject(querry) {
         dispatch({type: "FETCH_GIT"});
         /*
            search the git with the REST API
+           //todo: include pagination since only 100 results per search
         */
         fetch("https://api.github.com/search/repositories?q="+urlParams)
             .then(response => response.json())
@@ -27,6 +28,7 @@ export function fetchGitCode(querry) {
         dispatch({type: "FETCH_GIT"});
         /*
            search the git with the REST API
+           //todo: include pagination since only 100 results per search
         */
         fetch("https://api.github.com/search/code?q="+urlParams)
             .then(response => response.json())
