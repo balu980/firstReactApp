@@ -13,6 +13,7 @@ The App will search for repositories or code under the github.
 - Click the "Search Projects" button.
 - The results will be displayed like this.
  ![Alt text](https://github.com/balu980/firstReactApp/blob/master/result%20page.png?raw=true)
+- To initiate another search hit refresh on the browser.
 
 ## How to Repositories Code _(you have to know the repo name)_
 - Once the page opens, type in some text on "text" and "repo" (make sure the repo is correct) text box.
@@ -20,7 +21,7 @@ The App will search for repositories or code under the github.
 - Click on the "Search Code" button.
 - The results will be displayed like this.
 ![Alt text](https://github.com/balu980/firstReactApp/blob/master/result%20page%20code%20search.png?raw=true)
-
+- To initiate another search hit refresh on the browser.
 
 
 
