@@ -1,3 +1,13 @@
+## How to ...
+
+- start the app with npm start
+- A browser will be launched automatically. else use  http://localhost:3000/
+- Once the page opens, type in some text one or both the text box 
+- Click the Search Button.
+
+ 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
