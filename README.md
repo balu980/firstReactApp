@@ -5,8 +5,9 @@
 - Once the page opens, type in some text one or both the text box 
 - Click the Search Button.
 
- 
+ ![Alt text](https://github.com/balu980/firstReactApp/blob/master/empty%20page.png?raw=true)
 
+![Alt text](https://github.com/balu980/firstReactApp/blob/master/result%20page.png?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
