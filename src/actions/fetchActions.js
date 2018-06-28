@@ -1,8 +1,10 @@
 export function fetchGit(querry) {
     var urlParams = "language:"+querry.lang+"+topic:"+querry.topic
     return function(dispatch) {
+        /*
+        to add a loading text
+         */
         dispatch({type: "FETCH_GIT"});
-
         /*
            search the git with the REST API
         */

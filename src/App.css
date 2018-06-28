@@ -2,29 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .main-header {
@@ -52,7 +34,7 @@
   width: 50em;
   margin: 0px auto;
 }
-.box_header{
+.box-header{
   margin: -1px -1px 0 -1px;
   background-color: #f6f8fa;
   border-color: #d1d5da;
@@ -60,17 +42,17 @@
   border-width: 1px;
   padding: 4px 8px;
 }
-.project_list{
+.project-list{
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
-.project_list li{
+.project-list li{
   border-bottom: 1px solid #ccc;
   padding: .5em;
 }
 
-.project_name{
+.project-name{
   color:#0366d6;
   text-decoration: none;
   font-weight: bold;
