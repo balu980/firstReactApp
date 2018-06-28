@@ -1,13 +1,28 @@
-## How to ...
+## Introduction
 
-- start the app with npm start
-- A browser will be launched automatically. else use  http://localhost:3000/
-- Once the page opens, type in some text one or both the text box 
-- Click the Search Button.
+The App will search for repositories or code under the github.
 
- ![Alt text](https://github.com/balu980/firstReactApp/blob/master/empty%20page.png?raw=true)
+## Start the App
 
-![Alt text](https://github.com/balu980/firstReactApp/blob/master/result%20page.png?raw=true)
+- Start the app with "npm start".
+- A browser will be launched automatically or use  http://localhost:3000/.
+
+## How to Repositories Search
+- Once the page opens, type in some text on one or the first three text box.
+![Alt text](https://github.com/balu980/firstReactApp/blob/master/empty%20page.png?raw=true) 
+- Click the "Search Projects" button.
+- The results will be displayed like this.
+ ![Alt text](https://github.com/balu980/firstReactApp/blob/master/result%20page.png?raw=true)
+
+## How to Repositories Code _(you have to know the repo name)_
+- Once the page opens, type in some text on "text" and "repo" (make sure the repo is correct) text box.
+![Alt text](https://github.com/balu980/firstReactApp/blob/master/code%20search.png?raw=true)
+- Click on the "Search Code" button.
+- The results will be displayed like this.
+![Alt text](https://github.com/balu980/firstReactApp/blob/master/result%20page%20code%20search.png?raw=true)
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
