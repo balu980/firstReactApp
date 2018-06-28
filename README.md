@@ -3,9 +3,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-https://github.com/balu980/firstReactApp/blob/master/2018-06-27_21-53-43.mp4
-[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)]
-
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
